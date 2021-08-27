@@ -7,12 +7,23 @@
  *
  * Return: Always 0 (Success)
  */
+#include <stdio.h>
+
+/**
+ *main - print lowercase a-z
+ *Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-	for (int x = 'A'; x <= 'Z'; x++)
+	char alpha = 'a';
+
+	while (alpha <= 'z')
 	{
-		int lower_x = tolower(x);
-		putchar (lower_x);
+		putchar(alpha);
+		alpha++;
 	}
-	return(0);
+	putchar('\n');
+
+	return (0);
 }
