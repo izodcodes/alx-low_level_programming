@@ -1,12 +1,18 @@
 #include "main.h"
 /**
- * main - _putchar
+ * main - Holberton
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	_putchar(Holberton);
+	char *c = "Holberton";
+	int i;
+	for(i = 0; i < 10; i++)
+	{
+	_putchar(c[i]);
+	}
+	_putchar('\n');
 
 	return (0);
 }
