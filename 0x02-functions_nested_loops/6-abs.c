@@ -1,15 +1,17 @@
-#include "main.h"
+#include "holberton.h"
+
 /**
- * _islower - checks for lowercase character
- *@c: The character to print
- * Return: 1 if c is lowercase, otherwise 0
+ * _abs - compute absolute value of integer
+ * @n: integer argument
+ * Return: absolute value
  */
 
-int _islower(int c)
+int _abs(int n)
 {
-	if (c >= 97 && c <= 122)
-		return (1);
-	else
-		return (0);
-	_putchar('\n');
+	if (n > 0)
+		return (n);
+	else if (n < 0)
+		return (-n);
+
+	return (0);
 }
