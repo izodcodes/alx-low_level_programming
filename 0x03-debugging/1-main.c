@@ -13,6 +13,7 @@ int main(void)
 
 	i = 0;
 
+	/*while loop doesn't increment*/
 	while (i > 10)
 	{
 		putchar(i);
