@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-void print_triangle (int size)
+void print_triangle(int size)
 {
 	int s = size;
 	int l;
@@ -16,7 +16,7 @@ void print_triangle (int size)
 	{
 		for (l = 1; l <= s; l++)
 		{
-			for (b = l; b <= (s-1); b++)
+			for (b = l; b <= (s - 1); b++)
 			{
 				_putchar(' ');
 			}
