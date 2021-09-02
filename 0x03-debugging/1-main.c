@@ -2,7 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* '\\o/\n"': special character
 * Return: 0
 */
 
