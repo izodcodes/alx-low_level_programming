@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 1-swap - swaps integers
+ * swap_int - swaps integers
  * @a: pointer
  * @b: pointer
  * Return: Always 0 (Success)
