@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - updates value
+ * 1-swap - swaps integers
  * @a: pointer
  * @b: pointer
  * Return: Always 0 (Success)
