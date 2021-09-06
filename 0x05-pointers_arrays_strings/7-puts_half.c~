@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * puts_half - prints half of a string
+ * @str: a string
+ * Return: null
+ */
+void puts_half(char *str)
+{
+	int len = _strlen(str);
+	_putchar(len);
+}
