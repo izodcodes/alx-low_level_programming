@@ -2,8 +2,8 @@
 
 /**
  * print_strings - prints strings, followed by a new line
- * @seprator: separator to print between the strings
- * @n; number of strings to print
+ * @separator: separator to print between the strings
+ * @n: number of strings to print
  * Return: void
  */
 
